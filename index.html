@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="1Mds26S_7ki4K7LNlLRpo75UfT81ZNFCvsl9kPPPfhY">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css" integrity="sha256-no0c5ccDODBwp+9hSmV5VvPpKwHCpbVzXHexIkupM6U=" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js" integrity="sha256-a5YRB27CcBwBFcT5EF/f3E4vzIqyHrSR878nseNYw64=" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"eurekazheng.github.io","root":"/","images":"/images","scheme":"Gemini","version":"8.7.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<meta name="description" content="Eureka Zheng&#39;s Blog">
+<meta property="og:type" content="website">
+<meta property="og:title" content="少铭的博客">
+<meta property="og:url" content="https://eurekazheng.github.io/index.html">
+<meta property="og:site_name" content="少铭的博客">
+<meta property="og:description" content="Eureka Zheng&#39;s Blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="郑少铭">
+<meta property="article:tag" content="人工智能, 计算机视觉, 数学, 科技, 社会">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://eurekazheng.github.io/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>少铭的博客</title>
+  
+
+
+
+<link rel="dns-prefetch" href="https://blog-vercel-server-ovio2u88r-eurekazheng.vercel.app/">
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="少铭的博客" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">少铭的博客</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">生而不有，为而不恃，长而不宰</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+        <li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-overview">
+            <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">郑少铭</p>
+  <div class="site-description" itemprop="description">Eureka Zheng's Blog</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/eurekazheng" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;eurekazheng" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/zheng-eureka" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;zheng-eureka" rel="noopener" target="_blank"><i class="fab fa-zhihu fa-fw"></i>知乎</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.linkedin.com/in/eurekazheng/" title="领英 → https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;eurekazheng&#x2F;" rel="noopener" target="_blank"><i class="fab fa-linkedin fa-fw"></i>领英</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/55105745/" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;55105745&#x2F;" rel="noopener" target="_blank"><i class="fas fa-tv fa-fw"></i>bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.douban.com/people/128142632/" title="豆瓣 → https:&#x2F;&#x2F;www.douban.com&#x2F;people&#x2F;128142632&#x2F;" rel="noopener" target="_blank"><i class="fas fa-book fa-fw"></i>豆瓣</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.grasp.upenn.edu/people/shaoming-zheng/" title="UPenn → https:&#x2F;&#x2F;www.grasp.upenn.edu&#x2F;people&#x2F;shaoming-zheng&#x2F;" rel="noopener" target="_blank"><i class="fas fa-university fa-fw"></i>UPenn</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://stackexchange.com/users/13899428/eureka-zheng?tab=accounts" title="StackExchange → https:&#x2F;&#x2F;stackexchange.com&#x2F;users&#x2F;13899428&#x2F;eureka-zheng?tab&#x3D;accounts" rel="noopener" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i>StackExchange</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_nd.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/" class="post-title-link" itemprop="url">《纯粹理性批判》导读</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-06-23 18:25:38" itemprop="dateCreated datePublished" datetime="2021-06-23T18:25:38+08:00">2021-06-23</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/" data-xid="/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/" class="post-meta-item leancloud_visitors" data-flag-title="《纯粹理性批判》导读" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>结构化自 </em> <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1YJ411v7uk">邓晓芒《康德〈纯粹理性批判〉导读》</a></p>
+<h1 id="背景">背景</h1>
+<p><em>康德认为：传统的欧陆理性主义是独断（dogmatic）的。休谟打破了其“独断论的迷梦”。</em></p>
+<p>亚里士多德对真理的定义：“真理是观念与对象的相符”，无法抵挡经验论的怀疑。因为后者认为我们只能涉及<strong>观念（主观）</strong>
+而非<strong>对象（客观）</strong> 。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/06/12/%E6%8A%80%E6%9C%AF%E6%98%AF%E7%BB%9F%E6%B2%BB%E4%B8%96%E7%95%8C%E8%BF%98%E6%98%AF%E6%9C%8D%E5%8A%A1%E4%B8%96%E7%95%8C/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/06/12/%E6%8A%80%E6%9C%AF%E6%98%AF%E7%BB%9F%E6%B2%BB%E4%B8%96%E7%95%8C%E8%BF%98%E6%98%AF%E6%9C%8D%E5%8A%A1%E4%B8%96%E7%95%8C/" class="post-title-link" itemprop="url">技术是统治世界还是服务世界</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-06-12 01:18:01" itemprop="dateCreated datePublished" datetime="2021-06-12T01:18:01+08:00">2021-06-12</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/06/12/%E6%8A%80%E6%9C%AF%E6%98%AF%E7%BB%9F%E6%B2%BB%E4%B8%96%E7%95%8C%E8%BF%98%E6%98%AF%E6%9C%8D%E5%8A%A1%E4%B8%96%E7%95%8C/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/06/12/%E6%8A%80%E6%9C%AF%E6%98%AF%E7%BB%9F%E6%B2%BB%E4%B8%96%E7%95%8C%E8%BF%98%E6%98%AF%E6%9C%8D%E5%8A%A1%E4%B8%96%E7%95%8C/" data-xid="/2021/06/12/%E6%8A%80%E6%9C%AF%E6%98%AF%E7%BB%9F%E6%B2%BB%E4%B8%96%E7%95%8C%E8%BF%98%E6%98%AF%E6%9C%8D%E5%8A%A1%E4%B8%96%E7%95%8C/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/06/12/%E6%8A%80%E6%9C%AF%E6%98%AF%E7%BB%9F%E6%B2%BB%E4%B8%96%E7%95%8C%E8%BF%98%E6%98%AF%E6%9C%8D%E5%8A%A1%E4%B8%96%E7%95%8C/" class="post-meta-item leancloud_visitors" data-flag-title="技术是统治世界还是服务世界" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>技术并非统治或服务世界，技术本身就是世界发展的规律，也可以说是既统治又服务世界。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" class="post-title-link" itemprop="url">关于个人数据隐私保护的一些想法</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-06-05 23:30:06" itemprop="dateCreated datePublished" datetime="2021-06-05T23:30:06+08:00">2021-06-05</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" data-xid="/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" class="post-meta-item leancloud_visitors" data-flag-title="关于个人数据隐私保护的一些想法" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><strong>个人数据</strong>是指自然人<em>与生俱来</em>（姓名、出生日期）与<em>日常产生</em>（银行流水、通信记录）的各种数据。</p>
+<p>其中<strong>个人核心数据</strong>是指用户需要保护不被泄露的数据（个人隐私），包括但不限于<em>姓名与身份证号组合</em>、<em>银行卡号与密码组合</em>、<em>生物特征（基因组、表现型组（人脸、指纹、声纹））</em>、<em>社交聊天记录</em>、<em>个人金融（收入支出）记录</em>、<em>职业学历记录</em>、<em>网络浏览记录</em>、<em>医疗数据（健康状况与就诊记录）</em>、<em>地理位置轨迹</em>、<em>家庭成员与社会关系</em>、<em>行为特征与习惯</em>等，属于宪法赋予公民个人的核心权利。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/05/31/Vision-Transformer/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/05/31/Vision-Transformer/" class="post-title-link" itemprop="url">Vision Transformer</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-31 15:38:26" itemprop="dateCreated datePublished" datetime="2021-05-31T15:38:26+08:00">2021-05-31</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/05/31/Vision-Transformer/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/05/31/Vision-Transformer/" data-xid="/2021/05/31/Vision-Transformer/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/05/31/Vision-Transformer/" class="post-meta-item leancloud_visitors" data-flag-title="Vision Transformer" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="数据处理">数据处理</h3>
+<p>one-hot的原因：进行向量加减运算有意义</p>
+<p>删低频词：name
+entity，typo，vocab太大导致one-hot太稀疏（参数太多）</p>
+<p>步骤：</p>
+<ol type="1">
+<li>tokenization（大小写转换、stop word、拼写纠错等）</li>
+<li>词频统计排序索引</li>
+<li>one-hot encoding（不存在的词可以编码为0）</li>
+<li>sequence alignment（trimming，zero-padding）</li>
+</ol>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/31/Vision-Transformer/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/" class="post-title-link" itemprop="url">排队的规律</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-29 23:27:34" itemprop="dateCreated datePublished" datetime="2021-05-29T23:27:34+08:00">2021-05-29</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/" data-xid="/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/" class="post-meta-item leancloud_visitors" data-flag-title="排队的规律" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="接种疫苗的排队规律">接种疫苗的排队规律</h1>
+<p>为什么接种疫苗的速度明明很快，为什么队伍总是那么长呢？</p>
+<p>（本文由jupyter nbconvert转换自ipynb，hexo插件显示效果都不太行）</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/" class="post-title-link" itemprop="url">两种量子信息学应用</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-29 16:01:01" itemprop="dateCreated datePublished" datetime="2021-05-29T16:01:01+08:00">2021-05-29</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/" data-xid="/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/" class="post-meta-item leancloud_visitors" data-flag-title="两种量子信息学应用" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>了解了两种量子信息学的应用：量子密钥分发和量子货币，由于其情况分支比较复杂，讨论不甚严谨，在这里厘清比对一下。</p>
+<p>注意：分量只是概率不是观测值！</p>
+<h3 id="量子通信密钥分发bb84算法">量子通信（密钥分发）（BB84算法）</h3>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/" class="post-title-link" itemprop="url">关于阅读记录的一些体会</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-26 21:17:20" itemprop="dateCreated datePublished" datetime="2021-05-26T21:17:20+08:00">2021-05-26</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/" data-xid="/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/" class="post-meta-item leancloud_visitors" data-flag-title="关于阅读记录的一些体会" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="非审美阅读感知机算法">非审美阅读：感知机算法</h3>
+<p><img src="/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/perceptron.png"></p>
+<center style="color:#909090;font-size:10pt;">
+感知机（Perceptron）算法
+</center>
+<ul>
+<li><strong><em>形成自己的结构，而不是作者的结构（“六经注我”，而不是“我注六经”）</em></strong>：将单独一条高维的原始文本映射到低维的诠释文本，可能存在最优解（通过PCA）。但是，阅读是一个在线学习（Online
+Learning）的过程。以感知机（Perceptron）算法举例，每个人接触到的文本分布
+<span class="math inline">\(\mathcal{X}\)</span> 与积累的文本集 <span class="math inline">\(\mathbb{x}\)</span> 不同，对当前文本 <span class="math inline">\(\mathbb{x}_t\)</span> 的诠释 <span class="math inline">\(\hat{y}_t\)</span> 也不同，乃至于对诠释模型 <span class="math inline">\(\mathbb{w}\)</span>
+的更新也不同。比如我在机器学习方面的文本分布 <span class="math inline">\(\mathcal{X}\)</span>
+和我之前阅读过的介绍感知机的文本 <span class="math inline">\(\mathbb{x}\)</span>：<em>Pattern Recognition &amp;
+Machine Learning</em>，决定了我这种稍显特色的举例及其具体的notation
+<ul>
+<li><strong>大胆猜想</strong>：缺乏资料的时候，不妨先做假设，再斟酌取舍。或从其他模型借用，比如我从计算机类的模型来套用其他技术类的</li>
+<li><strong>跳读与归纳</strong>：翻看（非审美阅读的有效比例只有1%~25%），总结出要点，一般是特别标注或居特定位置的话，有时候全章只有一两句。看《未来医疗》并写<a href="/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/" title="读书笔记">读书笔记</a>时，用了大概4天的闲暇时间</li>
+<li><strong>收藏</strong>：不同于归纳，有意义的例子值得收藏，毕竟例子能够印证鉴别作者的一些说法。收藏的程度是能够让日后检索</li>
+<li><strong>选择性</strong>：挑选感兴趣，对自己的 <span class="math inline">\(\mathbb{w}\)</span>
+有意义的要点，比如颠覆性或匮乏的（<span class="math inline">\(\hat{y}_t
+\neq y_t\)</span>），而不是全部要点</li>
+</ul></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">《未来医疗》笔记</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-20 17:59:52" itemprop="dateCreated datePublished" datetime="2021-05-20T17:59:52+08:00">2021-05-20</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/" data-xid="/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/" class="post-meta-item leancloud_visitors" data-flag-title="《未来医疗》笔记" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>（移动）信息技术（互联网）对医疗服务的<strong>革命内容</strong>，核心是<strong>患者的主导权</strong>：<em>没有我的参与就不会有决策</em></p>
+<p>思维导图：<a href="《未来医疗》笔记/《未来医疗》笔记.xmind">《未来医疗》笔记.xmind</a></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/" class="post-title-link" itemprop="url">感知深度</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-17 00:42:49" itemprop="dateCreated datePublished" datetime="2021-05-17T00:42:49+08:00">2021-05-17</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/" data-xid="/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/" class="post-meta-item leancloud_visitors" data-flag-title="感知深度" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <ol type="1">
+<li><p>传统感知（2D-capable）</p>
+<ol type="1">
+<li>遮蔽（Occlusion）</li>
+<li>透视（Perspective）</li>
+<li>光照（Shading）</li>
+</ol></li>
+<li><p>新型感知（3D，VR）</p></li></ol>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://eurekazheng.github.io/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="郑少铭">
+      <meta itemprop="description" content="Eureka Zheng's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="少铭的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/" class="post-title-link" itemprop="url">《老子》解</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-17 00:41:04" itemprop="dateCreated datePublished" datetime="2021-05-17T00:41:04+08:00">2021-05-17</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-03-07 05:24:16" itemprop="dateModified" datetime="2022-03-07T05:24:16+08:00">2022-03-07</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论次数：</span>
+  
+    <a title="waline" href="/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/" data-xid="/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span id="/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/" class="post-meta-item leancloud_visitors" data-flag-title="《老子》解" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>道：规律（trend）</p>
+<p>名：存在（existence）</p>
+<p>常：本质的（essential）</p>
+<p>最本质的规律，是不可言说的；最本质的存在，是不可命名的。因为它们超越了语言的局限。（吾不知其名，强字之曰道，强为之名曰大）。因为不可言说，故不做分别，浑然一体（此三者不可致诘，故混而为一）。</p>
+<p>“无”是世界的发端，所以用“不可说”来解析发端的微妙；“有”即事物的存在，所以用“可说”来建构存在的丰富（执古之道，以御今之有）。</p>
+<p>向“无”的解析与向“有”的建构，便是观照一切变化的两极。随实用而消长，而不执着于特定立场，这就是“玄”。这奠定了中国哲学的实用主义（而非逻辑思辨的）与中庸思想，也即“玄之又玄，众妙之门”。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">郑少铭</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":"dark","version":"7.1.2","options":{"startOnload":"true  // default true"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.11.2/dist/mermaid.min.js","integrity":"sha256-lBK8/r0PCT3qtPtIvDcaT+20nHioFbzRGg36kOJ+wz4="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+  <script class="next-config" data-name="nprogress" type="application/json">{"enable":true,"spinner":true}</script>
+  <script src="/js/third-party/nprogress.js"></script>
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"https://blog-vercel-server-ovio2u88r-eurekazheng.vercel.app/","placeholder":"(发表评论)","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":true,"comment_count":true,"requiredFields":["nick"],"libUrl":"https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js","dark":"auto","el":"#waline-comments","path":"/"}</script>
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() => 
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => {
+    new Waline(CONFIG.waline);
+  });
+});
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+  
+</body>
+</html>

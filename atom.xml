@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>少铭的博客</title>
+  <icon>https://eurekazheng.github.io/icon.png</icon>
+  <subtitle>生而不有，为而不恃，长而不宰</subtitle>
+  <link href="https://eurekazheng.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://eurekazheng.github.io/"/>
+  <updated>2022-03-06T21:24:16.075Z</updated>
+  <id>https://eurekazheng.github.io/</id>
+  
+  <author>
+    <name>郑少铭</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《纯粹理性批判》导读</title>
+    <link href="https://eurekazheng.github.io/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/"/>
+    <id>https://eurekazheng.github.io/2021/06/23/%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4%E3%80%8B%E5%AF%BC%E8%AF%BB/</id>
+    <published>2021-06-23T10:25:38.000Z</published>
+    <updated>2022-03-06T21:24:16.075Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;结构化自 &lt;/em&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV1YJ411v7uk&quot;&gt;邓晓芒《康德〈纯粹理性批判〉导读》&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;背景&quot;&gt;背景&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;康德认为：传统的欧陆理性主义是独断（dogmatic）的。休谟打破了其“独断论的迷梦”。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;亚里士多德对真理的定义：“真理是观念与对象的相符”，无法抵挡经验论的怀疑。因为后者认为我们只能涉及&lt;strong&gt;观念（主观）&lt;/strong&gt;
+而非&lt;strong&gt;对象（客观）&lt;/strong&gt; 。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="哲学" scheme="https://eurekazheng.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+    <category term="读书笔记" scheme="https://eurekazheng.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>技术是统治世界还是服务世界</title>
+    <link href="https://eurekazheng.github.io/2021/06/12/%E6%8A%80%E6%9C%AF%E6%98%AF%E7%BB%9F%E6%B2%BB%E4%B8%96%E7%95%8C%E8%BF%98%E6%98%AF%E6%9C%8D%E5%8A%A1%E4%B8%96%E7%95%8C/"/>
+    <id>https://eurekazheng.github.io/2021/06/12/%E6%8A%80%E6%9C%AF%E6%98%AF%E7%BB%9F%E6%B2%BB%E4%B8%96%E7%95%8C%E8%BF%98%E6%98%AF%E6%9C%8D%E5%8A%A1%E4%B8%96%E7%95%8C/</id>
+    <published>2021-06-11T17:18:01.000Z</published>
+    <updated>2022-03-06T21:24:16.081Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;技术并非统治或服务世界，技术本身就是世界发展的规律，也可以说是既统治又服务世界。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于个人数据隐私保护的一些想法</title>
+    <link href="https://eurekazheng.github.io/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/"/>
+    <id>https://eurekazheng.github.io/2021/06/05/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</id>
+    <published>2021-06-05T15:30:06.000Z</published>
+    <updated>2022-03-06T21:24:16.077Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;个人数据&lt;/strong&gt;是指自然人&lt;em&gt;与生俱来&lt;/em&gt;（姓名、出生日期）与&lt;em&gt;日常产生&lt;/em&gt;（银行流水、通信记录）的各种数据。&lt;/p&gt;
+&lt;p&gt;其中&lt;strong&gt;个人核心数据&lt;/strong&gt;是指用户需要保护不被泄露的数据（个人隐私），包括但不限于&lt;em&gt;姓名与身份证号组合&lt;/em&gt;、&lt;em&gt;银行卡号与密码组合&lt;/em&gt;、&lt;em&gt;生物特征（基因组、表现型组（人脸、指纹、声纹））&lt;/em&gt;、&lt;em&gt;社交聊天记录&lt;/em&gt;、&lt;em&gt;个人金融（收入支出）记录&lt;/em&gt;、&lt;em&gt;职业学历记录&lt;/em&gt;、&lt;em&gt;网络浏览记录&lt;/em&gt;、&lt;em&gt;医疗数据（健康状况与就诊记录）&lt;/em&gt;、&lt;em&gt;地理位置轨迹&lt;/em&gt;、&lt;em&gt;家庭成员与社会关系&lt;/em&gt;、&lt;em&gt;行为特征与习惯&lt;/em&gt;等，属于宪法赋予公民个人的核心权利。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="科技" scheme="https://eurekazheng.github.io/tags/%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vision Transformer</title>
+    <link href="https://eurekazheng.github.io/2021/05/31/Vision-Transformer/"/>
+    <id>https://eurekazheng.github.io/2021/05/31/Vision-Transformer/</id>
+    <published>2021-05-31T07:38:26.000Z</published>
+    <updated>2022-03-06T21:24:16.070Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;数据处理&quot;&gt;数据处理&lt;/h3&gt;
+&lt;p&gt;one-hot的原因：进行向量加减运算有意义&lt;/p&gt;
+&lt;p&gt;删低频词：name
+entity，typo，vocab太大导致one-hot太稀疏（参数太多）&lt;/p&gt;
+&lt;p&gt;步骤：&lt;/p&gt;
+&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;tokenization（大小写转换、stop word、拼写纠错等）&lt;/li&gt;
+&lt;li&gt;词频统计排序索引&lt;/li&gt;
+&lt;li&gt;one-hot encoding（不存在的词可以编码为0）&lt;/li&gt;
+&lt;li&gt;sequence alignment（trimming，zero-padding）&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    
+    <category term="视觉" scheme="https://eurekazheng.github.io/tags/%E8%A7%86%E8%A7%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>排队的规律</title>
+    <link href="https://eurekazheng.github.io/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/"/>
+    <id>https://eurekazheng.github.io/2021/05/29/%E6%8E%92%E9%98%9F%E7%9A%84%E8%A7%84%E5%BE%8B/</id>
+    <published>2021-05-29T15:27:34.000Z</published>
+    <updated>2022-03-06T21:24:16.082Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;接种疫苗的排队规律&quot;&gt;接种疫苗的排队规律&lt;/h1&gt;
+&lt;p&gt;为什么接种疫苗的速度明明很快，为什么队伍总是那么长呢？&lt;/p&gt;
+&lt;p&gt;（本文由jupyter nbconvert转换自ipynb，hexo插件显示效果都不太行）&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; np&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; plt&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>两种量子信息学应用</title>
+    <link href="https://eurekazheng.github.io/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    <id>https://eurekazheng.github.io/2021/05/29/%E4%B8%A4%E7%A7%8D%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%BA%94%E7%94%A8/</id>
+    <published>2021-05-29T08:01:01.000Z</published>
+    <updated>2022-03-06T21:24:16.076Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;了解了两种量子信息学的应用：量子密钥分发和量子货币，由于其情况分支比较复杂，讨论不甚严谨，在这里厘清比对一下。&lt;/p&gt;
+&lt;p&gt;注意：分量只是概率不是观测值！&lt;/p&gt;
+&lt;h3 id=&quot;量子通信密钥分发bb84算法&quot;&gt;量子通信（密钥分发）（BB84算法）&lt;/h3&gt;</summary>
+    
+    
+    
+    
+    <category term="算法" scheme="https://eurekazheng.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="量子" scheme="https://eurekazheng.github.io/tags/%E9%87%8F%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于阅读记录的一些体会</title>
+    <link href="https://eurekazheng.github.io/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/"/>
+    <id>https://eurekazheng.github.io/2021/05/26/%E5%85%B3%E4%BA%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%93%E4%BC%9A/</id>
+    <published>2021-05-26T13:17:20.000Z</published>
+    <updated>2022-03-06T21:24:16.077Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;非审美阅读感知机算法&quot;&gt;非审美阅读：感知机算法&lt;/h3&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="读书笔记" scheme="https://eurekazheng.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《未来医疗》笔记</title>
+    <link href="https://eurekazheng.github.io/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
+    <id>https://eurekazheng.github.io/2021/05/20/%E3%80%8A%E6%9C%AA%E6%9D%A5%E5%8C%BB%E7%96%97%E3%80%8B%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-05-20T09:59:52.000Z</published>
+    <updated>2022-03-06T21:24:16.072Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;（移动）信息技术（互联网）对医疗服务的&lt;strong&gt;革命内容&lt;/strong&gt;，核心是&lt;strong&gt;患者的主导权&lt;/strong&gt;：&lt;em&gt;没有我的参与就不会有决策&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;思维导图：&lt;a href=&quot;《未来医疗》笔记/《未来医疗》笔记.xmind&quot;&gt;《未来医疗》笔记.xmind&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="读书笔记" scheme="https://eurekazheng.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="医疗" scheme="https://eurekazheng.github.io/tags/%E5%8C%BB%E7%96%97/"/>
+    
+    <category term="科技" scheme="https://eurekazheng.github.io/tags/%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>感知深度</title>
+    <link href="https://eurekazheng.github.io/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/"/>
+    <id>https://eurekazheng.github.io/2021/05/17/%E6%84%9F%E7%9F%A5%E6%B7%B1%E5%BA%A6/</id>
+    <published>2021-05-16T16:42:49.000Z</published>
+    <updated>2022-03-06T21:24:16.081Z</updated>
+    
+    
+    <summary type="html">&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;&lt;p&gt;传统感知（2D-capable）&lt;/p&gt;
+&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;遮蔽（Occlusion）&lt;/li&gt;
+&lt;li&gt;透视（Perspective）&lt;/li&gt;
+&lt;li&gt;光照（Shading）&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新型感知（3D，VR）&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    
+    
+    
+    
+    <category term="视觉" scheme="https://eurekazheng.github.io/tags/%E8%A7%86%E8%A7%89/"/>
+    
+    <category term="科技" scheme="https://eurekazheng.github.io/tags/%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《老子》解</title>
+    <link href="https://eurekazheng.github.io/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/"/>
+    <id>https://eurekazheng.github.io/2021/05/17/%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B%E8%A7%A3/</id>
+    <published>2021-05-16T16:41:04.000Z</published>
+    <updated>2022-03-06T21:24:16.076Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;道：规律（trend）&lt;/p&gt;
+&lt;p&gt;名：存在（existence）&lt;/p&gt;
+&lt;p&gt;常：本质的（essential）&lt;/p&gt;
+&lt;p&gt;最本质的规律，是不可言说的；最本质的存在，是不可命名的。因为它们超越了语言的局限。（吾不知其名，强字之曰道，强为之名曰大）。因为不可言说，故不做分别，浑然一体（此三者不可致诘，故混而为一）。&lt;/p&gt;
+&lt;p&gt;“无”是世界的发端，所以用“不可说”来解析发端的微妙；“有”即事物的存在，所以用“可说”来建构存在的丰富（执古之道，以御今之有）。&lt;/p&gt;
+&lt;p&gt;向“无”的解析与向“有”的建构，便是观照一切变化的两极。随实用而消长，而不执着于特定立场，这就是“玄”。这奠定了中国哲学的实用主义（而非逻辑思辨的）与中庸思想，也即“玄之又玄，众妙之门”。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="哲学" scheme="https://eurekazheng.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>现代哲学视角下的金刚经</title>
+    <link href="https://eurekazheng.github.io/2021/05/17/%E7%8E%B0%E4%BB%A3%E5%93%B2%E5%AD%A6%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E9%87%91%E5%88%9A%E7%BB%8F/"/>
+    <id>https://eurekazheng.github.io/2021/05/17/%E7%8E%B0%E4%BB%A3%E5%93%B2%E5%AD%A6%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E9%87%91%E5%88%9A%E7%BB%8F/</id>
+    <published>2021-05-16T16:38:54.000Z</published>
+    <updated>2022-03-06T21:24:16.090Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;佛教认为世界的本质是条件的组合（&lt;strong&gt;因缘和合&lt;/strong&gt;）（抛弃了原子论的所谓基本实在与“自性”概念，属于结构主义。这种说法比较符合佛教诞生的思想史背景），但是事物&lt;strong&gt;没有“自性”&lt;/strong&gt;，具体来说：被我们所“认识”的事物没有古人所理解的某种“使事物成为其自身的、特殊的、相互独立（互不依存）的、抽象而不可规约的特质”，都是可以解构的，本质上都是一样的（因缘和合）——这也是《华严经》所说的“一花一世界，一叶一如来”，微小之物也包含着其背后完整的存在的结构。这就是&lt;strong&gt;缘起性空&lt;/strong&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="哲学" scheme="https://eurekazheng.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>KMP算法详解(DFA)</title>
+    <link href="https://eurekazheng.github.io/2021/05/17/KMP%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3-DFA/"/>
+    <id>https://eurekazheng.github.io/2021/05/17/KMP%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3-DFA/</id>
+    <published>2021-05-16T16:25:42.000Z</published>
+    <updated>2022-03-06T21:24:16.069Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;KMP算法的本质，是在遍历&lt;strong&gt;字符串&lt;/strong&gt;和&lt;strong&gt;模式串&lt;/strong&gt;至不匹配字符之前，已经积累了一定的匹配信息。Knuth,
+Morris &amp;amp; Pratt发现利用 &lt;em&gt;确定有限状态自动机(Determinstic Finite
+Automata, DFA)&lt;/em&gt; 可以有效地复用这些信息，达到一个模式串 &lt;span class=&quot;math inline&quot;&gt;\(p\)&lt;/span&gt; 对应一个 &lt;span class=&quot;math inline&quot;&gt;\(DFA_p\)&lt;/span&gt;
+、构建一次即可在任何文本中重复使用的效果。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="算法" scheme="https://eurekazheng.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="LeetCode" scheme="https://eurekazheng.github.io/tags/LeetCode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>非线性规划 - 倍增代数重构法(MART)</title>
+    <link href="https://eurekazheng.github.io/2021/05/17/%E9%9D%9E%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92-%E5%80%8D%E5%A2%9E%E4%BB%A3%E6%95%B0%E9%87%8D%E6%9E%84%E6%B3%95-MART/"/>
+    <id>https://eurekazheng.github.io/2021/05/17/%E9%9D%9E%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92-%E5%80%8D%E5%A2%9E%E4%BB%A3%E6%95%B0%E9%87%8D%E6%9E%84%E6%B3%95-MART/</id>
+    <published>2021-05-16T16:13:03.000Z</published>
+    <updated>2022-03-06T21:24:16.090Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;倍增代数重构法(Multiplicative Algebraic Reconstruction
+Technique, MART)&lt;/strong&gt;是无约束非线性规划的一种算法。&lt;/p&gt;
+&lt;p&gt;对于无约束几何规划问题：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;math inline&quot;&gt;\(\max g(x) = \sum_{i=1}^n c_i
+\left(\prod_{j=1}^m x_j^{\alpha_{ij}}\right)\)&lt;/span&gt; ，满足约束 &lt;span class=&quot;math inline&quot;&gt;\(c_i, x_j&amp;gt;0\)&lt;/span&gt; , &lt;span class=&quot;math inline&quot;&gt;\(\alpha_{ij}\)&lt;/span&gt; 为实数（ &lt;span class=&quot;math inline&quot;&gt;\(i=1..n\)&lt;/span&gt; ， &lt;span class=&quot;math inline&quot;&gt;\(j=1..m\)&lt;/span&gt; ）。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="数学" scheme="https://eurekazheng.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="最优化" scheme="https://eurekazheng.github.io/tags/%E6%9C%80%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最大回文子串（5. Longest Palindrome Substring）：降维打击</title>
+    <link href="https://eurekazheng.github.io/2021/05/16/%E6%9C%80%E5%A4%A7%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%EF%BC%885-Longest-Palindrome-Substring%EF%BC%89%EF%BC%9A%E9%99%8D%E7%BB%B4%E6%89%93%E5%87%BB/"/>
+    <id>https://eurekazheng.github.io/2021/05/16/%E6%9C%80%E5%A4%A7%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%EF%BC%885-Longest-Palindrome-Substring%EF%BC%89%EF%BC%9A%E9%99%8D%E7%BB%B4%E6%89%93%E5%87%BB/</id>
+    <published>2021-05-16T15:57:08.000Z</published>
+    <updated>2022-03-06T21:24:16.090Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://leetcode.com/problems/longest-palindromic-substring&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;最初想法&lt;/em&gt;：直接以 最大回文子串 方法本身进行记忆化搜索： &lt;span class=&quot;math display&quot;&gt;\[
+P_{i, j} = \left\{ \begin{align} &amp;amp; P_{i, j} &amp;amp; \text{size}(P)
+\leq 1 &amp;amp; \text{ [*]}\\ &amp;amp; P_{i + 1, j - 1} &amp;amp; P_i=P_j \\ &amp;amp;
+\arg \max_{\text{size}(P)} \{P_{i + 1, j}, P_{i, j - 1}\} &amp;amp;
+\text{otherwise} \end{align} \right.
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;[*] &lt;span class=&quot;math inline&quot;&gt;\(\text{size}(P)\)&lt;/span&gt; 表示 &lt;span class=&quot;math inline&quot;&gt;\(P\)&lt;/span&gt;
+&lt;strong&gt;特定语境&lt;/strong&gt;下某一子串的长度。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="算法" scheme="https://eurekazheng.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="LeetCode" scheme="https://eurekazheng.github.io/tags/LeetCode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Beta分布与贝叶斯推断</title>
+    <link href="https://eurekazheng.github.io/2021/05/16/Beta%E5%88%86%E5%B8%83%E4%B8%8E%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD/"/>
+    <id>https://eurekazheng.github.io/2021/05/16/Beta%E5%88%86%E5%B8%83%E4%B8%8E%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD/</id>
+    <published>2021-05-16T05:56:49.000Z</published>
+    <updated>2022-05-21T11:21:25.391Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;贝叶斯推断是描述新观测得到的数据如何对先验知识形成影响。Beta分布是对于二元随机变量的结果概率的一种符合贝叶斯统计的概率分布，是一种”&lt;strong&gt;概率的概率分布&lt;/strong&gt;“。&lt;strong&gt;Beta分布的具体形式是为了满足贝叶斯推断过程中其内涵的一致性确定出来的。&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="统计" scheme="https://eurekazheng.github.io/tags/%E7%BB%9F%E8%AE%A1/"/>
+    
+    <category term="机器学习" scheme="https://eurekazheng.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="数学" scheme="https://eurekazheng.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人本主义，人文主义与人道主义</title>
+    <link href="https://eurekazheng.github.io/2021/05/16/%E4%BA%BA%E6%9C%AC%E4%B8%BB%E4%B9%89%EF%BC%8C%E4%BA%BA%E6%96%87%E4%B8%BB%E4%B9%89%E4%B8%8E%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89/"/>
+    <id>https://eurekazheng.github.io/2021/05/16/%E4%BA%BA%E6%9C%AC%E4%B8%BB%E4%B9%89%EF%BC%8C%E4%BA%BA%E6%96%87%E4%B8%BB%E4%B9%89%E4%B8%8E%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89/</id>
+    <published>2021-05-15T16:12:45.000Z</published>
+    <updated>2022-03-06T21:24:16.076Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;个人的理解。&lt;/p&gt;
+&lt;p&gt;首先，&lt;strong&gt;人文主义（Humanism）&lt;/strong&gt;是人的行为、人性、价值观、内在涵养符合文明的要求，向某种文明靠拢。比如文艺复兴时期强调世俗文明（相对于宗教文明），启蒙时代强调理性与知识文明（相对于非理性与非知识的文明）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人道主义（Humanitarianism）&lt;/strong&gt;则指各种尊重与体现文明的要求的行为，&lt;em&gt;特别是满足人性的要求。&lt;/em&gt;比如人道主义救助、人道主义毁灭。&lt;/p&gt;
+&lt;p&gt;所以，人道主义是人文主义的一个子概念。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="哲学" scheme="https://eurekazheng.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>意识的本质</title>
+    <link href="https://eurekazheng.github.io/2021/05/15/%E6%84%8F%E8%AF%86%E7%9A%84%E6%9C%AC%E8%B4%A8/"/>
+    <id>https://eurekazheng.github.io/2021/05/15/%E6%84%8F%E8%AF%86%E7%9A%84%E6%9C%AC%E8%B4%A8/</id>
+    <published>2021-05-15T15:58:10.000Z</published>
+    <updated>2022-03-06T21:24:16.079Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;声明：以下内容，是我基于对意识的观察与猜测。仅供参考，不代表任何已有的学术观点。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;什么是自我意识？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;意识（consciousness）&lt;/strong&gt;，即一个个体能够描述它的各种情感与思维的存在；而&lt;strong&gt;自我意识（self-consciousness）&lt;/strong&gt;是指进一步把这些情感与思维&lt;strong&gt;联系&lt;/strong&gt;到一个称为&lt;strong&gt;自我&lt;/strong&gt;的抽象概念的能力。&lt;/p&gt;
+&lt;p&gt;这种联系有多种模式，最常见的一种是&lt;strong&gt;主客观（objective-subjective）模式&lt;/strong&gt;，即认为：情感与思维可以被理解为&lt;strong&gt;客观概念&lt;/strong&gt;，它们可以独立地存在、被完全地描述与分析；反之，自我则是一种难以观察、难以描述、难以解析的神秘的整体性存在，这种特性被称为“主观”。&lt;strong&gt;主观的自我无时不刻在“感受”着客观的概念。&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="哲学" scheme="https://eurekazheng.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript数组异步映射</title>
+    <link href="https://eurekazheng.github.io/2021/05/15/JavaScript%E6%95%B0%E7%BB%84%E5%BC%82%E6%AD%A5%E6%98%A0%E5%B0%84/"/>
+    <id>https://eurekazheng.github.io/2021/05/15/JavaScript%E6%95%B0%E7%BB%84%E5%BC%82%E6%AD%A5%E6%98%A0%E5%B0%84/</id>
+    <published>2021-05-15T15:55:58.000Z</published>
+    <updated>2022-03-06T21:24:16.068Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在前端业务中，我们有时会对一个数组的所有元素进行异步处理（异步映射，Asynchronous
+Mapping），所以不能简单地遍历。一种有效的原生JavaScript方法是使用递归进行异步调用，将下一个元素的异步映射作为当前元素异步映射的回调（Callback）：&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="前端" scheme="https://eurekazheng.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于在线教育</title>
+    <link href="https://eurekazheng.github.io/2021/05/15/%E5%85%B3%E4%BA%8E%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2/"/>
+    <id>https://eurekazheng.github.io/2021/05/15/%E5%85%B3%E4%BA%8E%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2/</id>
+    <published>2021-05-15T15:53:07.000Z</published>
+    <updated>2022-03-06T21:24:16.077Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;很多人认为，大学仅通过上课获取不到有效知识。&lt;/p&gt;
+&lt;p&gt;的确，就像小初高教育需要做题巩固知识一样，大学也需要各种项目、作业乃至考试来巩固知识。但这好像不是其他答主想要证明的。他们想要证明的似乎是：&lt;strong&gt;免费的在线教育获取不到有效知识，或者无法实现人生的提升&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这是为什么呢？主要有几个原因，也都不乏解决方案：&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="科技" scheme="https://eurekazheng.github.io/tags/%E7%A7%91%E6%8A%80/"/>
+    
+    <category term="教育" scheme="https://eurekazheng.github.io/tags/%E6%95%99%E8%82%B2/"/>
+    
+    <category term="社会" scheme="https://eurekazheng.github.io/tags/%E7%A4%BE%E4%BC%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>北斗GPS卫星定位导航算法</title>
+    <link href="https://eurekazheng.github.io/2021/05/09/%E5%8C%97%E6%96%97GPS%E5%8D%AB%E6%98%9F%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA%E7%AE%97%E6%B3%95/"/>
+    <id>https://eurekazheng.github.io/2021/05/09/%E5%8C%97%E6%96%97GPS%E5%8D%AB%E6%98%9F%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA%E7%AE%97%E6%B3%95/</id>
+    <published>2021-05-09T15:23:04.000Z</published>
+    <updated>2022-03-06T21:24:16.078Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;网上关于卫星定位算法的描述过于混乱冗余，现给出一种简明的表示：&lt;/p&gt;
+&lt;p&gt;GNSS的&lt;em&gt;伪距（Pseudorange）&lt;/em&gt; &lt;strong&gt;定位&lt;/strong&gt;（&lt;span class=&quot;math inline&quot;&gt;\(x,y,z\)&lt;/span&gt;）、&lt;strong&gt;授时&lt;/strong&gt;（&lt;span class=&quot;math inline&quot;&gt;\(t\)&lt;/span&gt;）功能可以用四颗卫星求解，是一个典型的四元二次方程组：
+&lt;span class=&quot;math display&quot;&gt;\[
+\begin{align}
+(x - x_1)^2 + (y - y_1)^2 + (z - z_1)^2 - c^2(t - t_1)^2 = 0 \\
+(x - x_2)^2 + (y - y_2)^2 + (z - z_2)^2 - c^2(t - t_2)^2 = 0 \\
+(x - x_3)^2 + (y - y_3)^2 + (z - z_3)^2 - c^2(t - t_3)^2 = 0 \\
+(x - x_4)^2 + (y - y_4)^2 + (z - z_4)^2 - c^2(t - t_4)^2 = 0
+\end{align}
+\]&lt;/span&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="数学" scheme="https://eurekazheng.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="科技" scheme="https://eurekazheng.github.io/tags/%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
+  
+</feed>
