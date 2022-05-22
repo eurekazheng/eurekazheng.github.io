@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>少铭的博客</title>
   <icon>https://eurekazheng.github.io/icon.png</icon>
-  <subtitle>生而不有，为而不恃，长而不宰</subtitle>
+  <subtitle>我见青山多妩媚，&lt;br&gt;料青山见我应如是</subtitle>
   <link href="https://eurekazheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://eurekazheng.github.io/"/>
-  <updated>2022-03-06T21:24:16.075Z</updated>
+  <updated>2022-05-21T16:07:55.394Z</updated>
   <id>https://eurekazheng.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Frontend Stack</title>
+    <link href="https://eurekazheng.github.io/2022/05/21/Frontend-Stack/"/>
+    <id>https://eurekazheng.github.io/2022/05/21/Frontend-Stack/</id>
+    <published>2022-05-21T15:44:45.000Z</published>
+    <updated>2022-05-21T16:07:55.394Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;JSON&lt;/strong&gt; (&lt;strong&gt;J&lt;/strong&gt;ava&lt;strong&gt;S&lt;/strong&gt;cript
+&lt;strong&gt;O&lt;/strong&gt;bject &lt;strong&gt;N&lt;/strong&gt;otation) is a raw</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://eurekazheng.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>《纯粹理性批判》导读</title>
@@ -427,34 +451,6 @@ Mapping），所以不能简单地遍历。一种有效的原生JavaScript方法
     <category term="教育" scheme="https://eurekazheng.github.io/tags/%E6%95%99%E8%82%B2/"/>
     
     <category term="社会" scheme="https://eurekazheng.github.io/tags/%E7%A4%BE%E4%BC%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>北斗GPS卫星定位导航算法</title>
-    <link href="https://eurekazheng.github.io/2021/05/09/%E5%8C%97%E6%96%97GPS%E5%8D%AB%E6%98%9F%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA%E7%AE%97%E6%B3%95/"/>
-    <id>https://eurekazheng.github.io/2021/05/09/%E5%8C%97%E6%96%97GPS%E5%8D%AB%E6%98%9F%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA%E7%AE%97%E6%B3%95/</id>
-    <published>2021-05-09T15:23:04.000Z</published>
-    <updated>2022-03-06T21:24:16.078Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;网上关于卫星定位算法的描述过于混乱冗余，现给出一种简明的表示：&lt;/p&gt;
-&lt;p&gt;GNSS的&lt;em&gt;伪距（Pseudorange）&lt;/em&gt; &lt;strong&gt;定位&lt;/strong&gt;（&lt;span class=&quot;math inline&quot;&gt;\(x,y,z\)&lt;/span&gt;）、&lt;strong&gt;授时&lt;/strong&gt;（&lt;span class=&quot;math inline&quot;&gt;\(t\)&lt;/span&gt;）功能可以用四颗卫星求解，是一个典型的四元二次方程组：
-&lt;span class=&quot;math display&quot;&gt;\[
-\begin{align}
-(x - x_1)^2 + (y - y_1)^2 + (z - z_1)^2 - c^2(t - t_1)^2 = 0 \\
-(x - x_2)^2 + (y - y_2)^2 + (z - z_2)^2 - c^2(t - t_2)^2 = 0 \\
-(x - x_3)^2 + (y - y_3)^2 + (z - z_3)^2 - c^2(t - t_3)^2 = 0 \\
-(x - x_4)^2 + (y - y_4)^2 + (z - z_4)^2 - c^2(t - t_4)^2 = 0
-\end{align}
-\]&lt;/span&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="数学" scheme="https://eurekazheng.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
-    
-    <category term="科技" scheme="https://eurekazheng.github.io/tags/%E7%A7%91%E6%8A%80/"/>
     
   </entry>
   
