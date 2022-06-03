@@ -6,7 +6,7 @@
   <link href="https://eurekazheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://eurekazheng.github.io/"/>
-  <updated>2022-05-21T16:07:55.394Z</updated>
+  <updated>2022-05-24T06:34:47.257Z</updated>
   <id>https://eurekazheng.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>当人们喜欢编程时，在喜欢什么？</title>
+    <link href="https://eurekazheng.github.io/2022/05/24/%E5%BD%93%E4%BA%BA%E4%BB%AC%E5%96%9C%E6%AC%A2%E7%BC%96%E7%A8%8B%E6%97%B6%EF%BC%8C%E5%9C%A8%E5%96%9C%E6%AC%A2%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
+    <id>https://eurekazheng.github.io/2022/05/24/%E5%BD%93%E4%BA%BA%E4%BB%AC%E5%96%9C%E6%AC%A2%E7%BC%96%E7%A8%8B%E6%97%B6%EF%BC%8C%E5%9C%A8%E5%96%9C%E6%AC%A2%E4%BB%80%E4%B9%88%EF%BC%9F/</id>
+    <published>2022-05-24T06:30:46.000Z</published>
+    <updated>2022-05-24T06:34:47.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;计算机科学（包括信息科学、数据科学、人工智能、离散数学等分支）和商学是绝无仅有的两个实用性特别强的基础设施性学科。这意味着它们为社会生活当中的几乎所有任务搭设基础设施（数学对于大部分任务的实用性并不是非常高）。这也正是它们的从业人员薪资较其他行业高的原因。&lt;/p&gt;
+&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="计算机" scheme="https://eurekazheng.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="理论" scheme="https://eurekazheng.github.io/tags/%E7%90%86%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Frontend Stack</title>
@@ -428,29 +454,6 @@ Mapping），所以不能简单地遍历。一种有效的原生JavaScript方法
     
     
     <category term="前端" scheme="https://eurekazheng.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于在线教育</title>
-    <link href="https://eurekazheng.github.io/2021/05/15/%E5%85%B3%E4%BA%8E%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2/"/>
-    <id>https://eurekazheng.github.io/2021/05/15/%E5%85%B3%E4%BA%8E%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2/</id>
-    <published>2021-05-15T15:53:07.000Z</published>
-    <updated>2022-03-06T21:24:16.077Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;很多人认为，大学仅通过上课获取不到有效知识。&lt;/p&gt;
-&lt;p&gt;的确，就像小初高教育需要做题巩固知识一样，大学也需要各种项目、作业乃至考试来巩固知识。但这好像不是其他答主想要证明的。他们想要证明的似乎是：&lt;strong&gt;免费的在线教育获取不到有效知识，或者无法实现人生的提升&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;这是为什么呢？主要有几个原因，也都不乏解决方案：&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="科技" scheme="https://eurekazheng.github.io/tags/%E7%A7%91%E6%8A%80/"/>
-    
-    <category term="教育" scheme="https://eurekazheng.github.io/tags/%E6%95%99%E8%82%B2/"/>
-    
-    <category term="社会" scheme="https://eurekazheng.github.io/tags/%E7%A4%BE%E4%BC%9A/"/>
     
   </entry>
   
