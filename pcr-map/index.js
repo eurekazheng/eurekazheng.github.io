@@ -20,10 +20,11 @@ fetch("./coordinates.json")
         width: 200, // 信息窗口宽度
         height: 100, // 信息窗口高度
         title: `<b>${site["name"]}</b>`, // 信息窗口标题
-        enableMessage: true, //设置允许信息窗发送短息
-        message: "亲耐滴，晚上一起吃个饭吧？戳下面的链接看下地址喔~",
       };
-      const infoWindow = new BMapGL.InfoWindow(site["address"], opts); // 创建信息窗口对象
+      const infoWindow = new BMapGL.InfoWindow(
+        `${site["address"]}<br><a href="baidumap://map/marker?location=${site["lng"]},${site["lat"]}&title=${site["name"]}&content=${site["address"]}&src=andr.baidu.openAPIdemo">跳转第三方地图应用</a>`,
+        opts
+      ); // 创建信息窗口对象
       marker.addEventListener("click", function () {
         map.openInfoWindow(infoWindow, point); //开启信息窗口
       });
