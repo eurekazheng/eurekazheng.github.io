@@ -1,3 +1,13 @@
+document.documentElement.addEventListener(
+  "touchstart",
+  function (event) {
+    if (event.touches.length > 1) {
+      event.preventDefault();
+    }
+  },
+  false
+);
+
 // 百度地图API功能
 const map = new BMap.Map("allmap");
 const center = new BMap.Point(116.723059, 23.366803);
