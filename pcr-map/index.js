@@ -6,6 +6,7 @@ map.enableScrollWheelZoom();
 map.enableInertialDragging();
 map.enableContinuousZoom();
 map.enableKeyboard();
+// map.disableDragging();
 
 fetch("./coordinates.json")
   .then((res) => {
@@ -23,9 +24,31 @@ fetch("./coordinates.json")
         enableCloseOnClick: false,
       };
       const infoWindow = new BMapGL.InfoWindow(
-        `${site["address"]}<br><a href="http://api.map.baidu.com/marker?location=${site["lat"]},${site["lng"]}&title=${site["name"]}&content=${site["address"]}&output=html" target="_blank">跳转第三方地图应用</a>`,
+        `${site["address"]}<br><button id="redirect-btn">跳转百度地图打开</button>`,
         opts
       ); // 创建信息窗口对象
+      infoWindow.addEventListener("open", function () {
+        if (
+          navigator.userAgent.match(
+            /(iPhone|iPod|Android|ios|iOS|iPad|WebOS|Symbian|Windows Phone|Phone)/i
+          )
+        ) {
+          document
+            .getElementById("redirect-btn")
+            .addEventListener("touchstart", () => {
+              window.location.href = `baidumap://map/marker?location=${site["lat"]},${site["lng"]}&title=${site["name"]}&content=${site["address"]}&src=ios.baidu.openAPIdemo`;
+            });
+        } else {
+          document
+            .getElementById("redirect-btn")
+            .addEventListener("click", () => {
+              window.open(
+                `https://api.map.baidu.com/marker?location=${site["lat"]},${site["lng"]}&title=${site["name"]}&content=${site["address"]}&output=html`,
+                "_blank"
+              );
+            });
+        }
+      });
       marker.addEventListener("click", function () {
         map.openInfoWindow(infoWindow, point); //开启信息窗口
       });
