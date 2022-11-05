@@ -23,7 +23,7 @@ fetch("./coordinates.json")
         enableCloseOnClick: false,
       };
       const infoWindow = new BMapGL.InfoWindow(
-        `${site["address"]}<br><a href="baidumap://map/marker?location=${site["lng"]},${site["lat"]}&title=${site["name"]}&content=${site["address"]}&src=andr.baidu.openAPIdemo">跳转第三方地图应用</a>`,
+        `${site["address"]}<br><a href="http://api.map.baidu.com/marker?location=${site["lat"]},${site["lng"]}&title=${site["name"]}&content=${site["address"]}&output=html" target="_blank">跳转第三方地图应用</a>`,
         opts
       ); // 创建信息窗口对象
       marker.addEventListener("click", function () {
