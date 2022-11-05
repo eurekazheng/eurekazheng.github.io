@@ -1,13 +1,3 @@
-document.documentElement.addEventListener(
-  "touchstart",
-  function (event) {
-    if (event.touches.length > 1) {
-      event.preventDefault();
-    }
-  },
-  false
-);
-
 // 百度地图API功能
 const map = new BMap.Map("allmap");
 const center = new BMap.Point(116.723059, 23.366803);
@@ -16,6 +6,15 @@ map.enableScrollWheelZoom();
 map.enableInertialDragging();
 map.enableContinuousZoom();
 map.enableKeyboard();
+
+map.addEventListener("zoomstart", function (e) {
+  center_lng = map.getCenter().lng;
+  center_lat = map.getCenter().lat;
+});
+// 监听地图缩放结束事件 lng表示经度，lat表示纬度
+map.addEventListener("zoomend", function (e) {
+  map.centerAndZoom(new BMap.Point(center_lng, center_lat), map.getZoom());
+});
 
 fetch("./coordinates.json")
   .then((res) => {
