@@ -20,6 +20,7 @@ fetch("./coordinates.json")
         width: 200, // 信息窗口宽度
         height: 100, // 信息窗口高度
         title: `<b>${site["name"]}</b>`, // 信息窗口标题
+        enableCloseOnClick: false,
       };
       const infoWindow = new BMapGL.InfoWindow(
         `${site["address"]}<br><a href="baidumap://map/marker?location=${site["lng"]},${site["lat"]}&title=${site["name"]}&content=${site["address"]}&src=andr.baidu.openAPIdemo">跳转第三方地图应用</a>`,
